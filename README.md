@@ -6,7 +6,7 @@ Ambari service to run and manage Apache Drill. For more information about Apache
   Requirements: <br>
     - RHEL/CENTOS 7.1 <br>
     - Ambari 2.X <br>
-    - HDP 2.4 <br>
+    - HDP 2.6 <br>
     - You need HDFS and Zookeeper up & running on your cluster
     
   Features: <br>
@@ -29,5 +29,16 @@ Restart ambari
 <code>
 ambari-server restart
 </code>
+
+Create the drill directory in hdfs (workaround)
+
+```
+sudo -u hdfs hadoop fs -mkdir /user
+sudo -u hdfs hadoop fs -mkdir /user/drill
+sudo -u hdfs hadoop fs -chown drill:drill /user/drill
+```
+
+Note the drill status command will need to get fixed
+
 
 Now you can install Drill by clicking on "Add Service" button in Ambari
