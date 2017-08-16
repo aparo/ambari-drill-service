@@ -13,12 +13,6 @@
           <category>MASTER</category>
           <cardinality>1+</cardinality>
 	  <versionAdvertised>false</versionAdvertised>
-          <dependencies>
-            <dependency>
-              <name>HDFS</name>
-              <scope>cluster</scope>
-            </dependency>
-          </dependencies>
           <commandScript>
             <script>scripts/drill.py</script>
             <scriptType>PYTHON</scriptType>
