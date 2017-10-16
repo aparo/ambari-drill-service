@@ -17,11 +17,14 @@ Ambari Service to run and manage Apache Drill. For more information about Apache
 
 #### 1. Download the Drill Service
 
-<code>git clone https://github.com/thyarles/ambari-drill-service.git /var/lib/ambari-server/resources/stacks/HDP/2.6/services/DRILL</code>
-
+```
+git clone https://github.com/thyarles/ambari-drill-service.git /var/lib/ambari-server/resources/stacks/HDP/2.6/services/DRILL
+```
 #### 2. Restart ambari
 
-<code>ambari-server restart</code>
+```
+ambari-server restart
+```
 
 #### 3. Create the drill directory in hdfs (workaround)
 
