@@ -4,7 +4,7 @@
 <configuration>
   <property>
     <name>drill_install_dir</name>
-    <value>/usr/hdp/2.6.1.0-129/apache-drill</value>
+    <value>/usr/hdp/2.6.2.0-205/apache-drill</value>
     <description>Location to install Drill</description>
   </property>
   <property>
@@ -22,4 +22,3 @@
     <description>Hadoop hdfs-site.xml file location</description>
   </property>
 </configuration>
-
