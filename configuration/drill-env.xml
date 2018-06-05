@@ -19,11 +19,11 @@
   </property>
   <property>
     <name>drill_max_direct_memory</name>
-    <value>8G</value>
+    <value>12G</value>
   </property>
   <property>
     <name>drill_heap_size</name>
-    <value>4G</value>
+    <value>8G</value>
   </property>
   <property>
     <name>content</name>

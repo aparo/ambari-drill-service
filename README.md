@@ -3,7 +3,7 @@
 Ambari Service to run and manage Apache Drill. For more information about Apache Drill visit <a href>https://drill.apache.org/</a>
 
 * Requirements
-  - RHEL/CENTOS 7.1
+  - RHEL/CENTOS 7.4
   - Ambari 2.X
   - HDP 2.6
   - You need HDFS and Zookeeper up & running on your cluster
